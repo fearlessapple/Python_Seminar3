@@ -11,7 +11,7 @@ print(f'my list = {my_list}')
 
 def my_list_multi(my_list):
     my_multi_list = []
-    for i in range((len(my_list)+1)//2):
+    for i in range((n+1)//2):
         my_multi_list.append(my_list[i] * my_list[len(my_list)-1-i])
     return my_multi_list
 print(f'my multi list = {my_list_multi(my_list)}')  
